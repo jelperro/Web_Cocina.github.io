@@ -3,11 +3,6 @@
     background-color:rgb(229, 235, 210);
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
 .cabezera{
 
     background-image: url(./img/CabezeraWeb2.webp);
@@ -64,11 +59,19 @@ h2.textotit{
     text-align: center;
     align-content: center;
     border-radius: 15px ;
-    @media screen and (min-width:300px) and (max-width:800px) {
-        padding: 10px 10px 10px 10px;
 
     }
 
+@media screen and (max-width: 768px){
+    .articulo{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .enlaces{
+        padding: 5px;
+        font-size: 17px;
+    }
 }
 .imagen{
     border-radius: 15px;
