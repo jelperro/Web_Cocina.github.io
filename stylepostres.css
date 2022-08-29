@@ -5,7 +5,7 @@
 
 .cabezera{
 
-    background-image: url(./img/Verduras.jpg);
+    background-image: url(./img/CabezeraWeb2.webp);
     background-size: 100%;
     padding: 75px;
     padding-top: 0px;
@@ -17,11 +17,11 @@
 }
 h1.textotit{
     font-size: 75px;
-    color: rgb(0,100,0);
+    color: rgb(255, 255, 255);
 }
 h2.textotit{
 
-    color: rgb(0,100,0);
+    color: rgb(255, 255, 255);
 }
 .enlaces{
     text-decoration: none;
