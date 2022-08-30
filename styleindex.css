@@ -19,9 +19,10 @@
 h1.textotit{
     font-size: 75px;
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 h2.textotit{
-
+    text-align: center;
     color: rgb(255, 255, 255);
 }
 .enlaces{
@@ -55,9 +56,13 @@ h2.textotit{
         margin-left: 10px;
     }
         .enlaces{
-        padding: 5px;
-        font-size: 17px;
-    }
+        padding: 3px;
+        font-size: 12px;}
+        
+        .cabezera{
+            padding: 0px;
+
+        }
 }
 .enlaceart{
     text-decoration: none;

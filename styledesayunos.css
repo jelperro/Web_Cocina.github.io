@@ -51,9 +51,13 @@ h2.textotit{
         margin-left: 10px;
     }
     .enlaces{
-        padding: 5px;
-        font-size: 17px;
+        padding: 3px;
+        font-size: 12px;
     }
+    .cabezera{
+    padding: 0px;
+
+        }
 }
 .imagen{
     border-radius: 15px;
