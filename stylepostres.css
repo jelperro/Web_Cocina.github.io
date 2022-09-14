@@ -55,6 +55,33 @@ padding-right: 5px;
         }
     
 }
+.articulo{
+    margin-right: 33.3%;
+   margin-left: 33.3%;
+    margin-bottom: 20px;
+    margin-top:20px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px ;
+
+}
+@media screen and (max-width: 768px){
+    .articulo{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .enlaces{
+        padding: 3px;
+        font-size: 12px;
+    }
+    .cabezera{
+    padding: 0px;
+
+        }
+}
+
 #contacto{
     float: right;
     text-decoration: none;}
