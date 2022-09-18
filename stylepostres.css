@@ -1,6 +1,7 @@
 #cuerpo{
     margin: 0px;
     background-color:rgb(229, 235, 210);
+    
 }
 
 .cabezera{
@@ -11,7 +12,11 @@
     padding-top: 0px;
     padding-left: 0px;
 }
-
+.lista{
+    text-align: left;
+}.lista{
+    text-align: left;
+}
 .textotit{
     text-align: center;
 }
