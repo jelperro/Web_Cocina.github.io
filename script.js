@@ -42,6 +42,31 @@ var chistes = [
         "¿Qué hace un vampiro conduciendo un tractor? Sembrar el miedo.       ",
         "¿Cuál es el colmo del atún? Que le den la lata.",
         "¿Qué le dice un árbol a otro? ¡Qué pasa tronco!        ",
+        "¿Por qué se suicidó el libro de matemáticas? Porque tenía muchos problemas.",
+        "¿Por qué los diabéticos no pueden vengarse? Porque la venganza es dulce.",
+        "¿Por qué los patos no tienen amigos? Porque son muy antipáticos",
+        "Hola, ¿está Agustín? No, estoy incomodín.",
+        "¿Qué le dice una barra de pan a otra? Te presento a una miga.",
+        "Una familia ocupó un terreno en Hawaii. Ahora a ver quién la desaloha.",
+        "¿Por qué los del Lepe no salen de la comunidad? Porque hay un cartel que pone Huelva.",
+        "Hola muñeca. Hola tobillo.",
+        "Qué es un pelo en una cama? El bello durmiente.",
+        "¿Qué le dice un huevo a una sartén? Me tienes frito.        ",
+        "Están dos borrachos y uno le dice al otro: ?No sigas bebiendo que te estás poniendo borroso?.",
+        "Si los ciempiés tienen 100 pies... ¿entonces los piojos tienen 3,14 ojos?",
+        "¿Por qué la gallina cuida tanto a sus pollitos? Porque le costó un huevo tenerlos.",
+        "¿Qué le dice el 3 al 30? Para ser como yo debes ser sincero.",
+        "¿Cuál es el superhéroe de los perros? El dóberman.",
+        "Si los zombis llegan a la tercera edad... ¿zombiejitos?",
+        "¿Por qué la luna es más grande que el sol? Porque la dejan salir de noche.",
+        "¿Cuál es el colmo de un puerco espín? Que le dé mala espina.",
+        "Van 2 videntes en una moto y se cae el del médium.",
+        "¿Qué le dice un semáforo en amarillo a los coches? No me miren, que me estoy cambiando."
+
+
+
+
+
 
 
 
@@ -52,7 +77,7 @@ var chistes = [
 
 function funcionchistes() {
  
-    let random = Math.floor(Math.random() * 41)
+    let random = Math.floor(Math.random() * 62)
             console.log(random)
     let chiste = (chistes[random])
     console.log(chiste)
