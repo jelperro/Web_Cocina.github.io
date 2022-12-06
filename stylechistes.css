@@ -15,8 +15,8 @@
     margin-left: 0px;
     margin-right: 0px;
     font-size: 150px;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 
 
 }
@@ -31,21 +31,16 @@
 
 .boton{
      background-image: linear-gradient(to right, #7474BF 0%, #348AC7  51%, #7474BF  100%);
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: inline;
-    height: 10rem;
-    width: 15rem;
-    font-size: 3rem;
-    
-      
+     padding: 30px;
+     border-radius: 10px;
+     margin-top: 50px;
+     border-width: 4px;
+     width: 200px;
+     height: 200px;
+     font-size: 45px; 
+     box-shadow: 0px;
+     text-align: right;
+     border:3px solid black;
      
     
 }
@@ -58,13 +53,35 @@
     font-size: 5rem;
 }
 
-.boton:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
 
 
+
+@media screen and (max-width: 768px){
+.titulo{
+ min-width: 100%;
+ max-width:100% ;
+ font-size:70px;
+}
+.subtitulo{
+    font-size: 30px;
+}
+.boton{
+    width: 80px;
+    height: 80px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: none;
+    outline: 0px;
+    border:3px solid black;
+    justify-content: center;
+    padding-left: 13px;
+    margin-top: 110px;
+}
+
+#containerc{
+    font-size: 55px;
+}
+}
 *{
     font-family: 'Space Grotesk', 'sans-serif' ;
     text-align: center;
