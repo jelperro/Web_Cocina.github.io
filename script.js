@@ -86,4 +86,3 @@ function funcionchistes() {
     console.log (ja)
 }
 
-funcionchistes()

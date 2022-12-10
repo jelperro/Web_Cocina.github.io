@@ -51,6 +51,9 @@
     display:flex;
     float: right;
     font-size: 5rem;
+    display: block;
+    text-align: center;
+    
 }
 
 
