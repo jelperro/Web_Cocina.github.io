@@ -36,10 +36,10 @@
      margin-top: 50px;
      border-width: 4px;
      width: 200px;
-     height: 200px;
+     height: 120px;
      font-size: 45px; 
      box-shadow: 0px;
-     text-align: right;
+     text-align: center;
      border:3px solid black;
      
     
@@ -88,4 +88,8 @@
 *{
     font-family: 'Space Grotesk', 'sans-serif' ;
     text-align: center;
+}
+
+#html{
+    scroll-behavior: smooth;
 }
