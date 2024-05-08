@@ -143,6 +143,9 @@ var chistes = [
 "¿Por qué las cucarachas siempre sobreviven a todo? Porque tienen una resistencia invencible",
 "¿Por qué los cisnes nunca pueden ser artistas? Porque siempre tienen un problema para mantenerse quietos",
 "¿Por qué los canguros siempre son los mejores para esquivar obstáculos? Porque siempre tienen un salto extra",
+"Sabes porque Manresa es tan gracioso, yo tampoco", 
+"Manresa > Herraez,fin.",
+"Sabes porque los chistes de esta pagina son tan graciosos, porque son iguales que Jaume"
 
 
 
@@ -158,7 +161,7 @@ var chistes = [
 
 function funcionchistes() {
  
-    let random = Math.floor(Math.random() * 143)
+    let random = Math.floor(Math.random() * 146)
             console.log(random)
     let chiste = (chistes[random])
     console.log(chiste)
